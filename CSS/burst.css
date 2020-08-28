@@ -1,0 +1,30 @@
+#afficher
+{
+	width: 500px;
+	background-color: green;
+}
+
+#stream-ep1
+{
+	display: none;
+}
+
+#afficher:target #stream-ep1
+{
+	display: block;
+}
+
+.masquer
+{
+	display: none;
+}
+
+#afficher:target .masquer
+{
+	display: inline;
+}
+
+#afficher:target .afficher
+{
+	display: none;
+}
