@@ -126,12 +126,12 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
 	align-items: center;
 	border: 1px solid black;
 	border-radius: 10px;
-	width: 150px;
+	width: 140px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 50px;
 	background-color: darkred;
-	height: 30px;
+	height: 40px;
 	font-size: 20px;
 	text-decoration: none;
 	color: white;
@@ -144,6 +144,9 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
 .bouton-ep:hover
 {
 	opacity: 1;
+	box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 }
 
 .prez
