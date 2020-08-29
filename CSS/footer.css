@@ -1,0 +1,50 @@
+#footer
+{
+	position: absolute;
+	width: 99%;
+	height: 100px;
+}
+
+.footer
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.footer-link
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link
+{
+	text-decoration: none;
+	color: white;
+	font-size: 12;
+	opacity: 0.4;
+	transition: all 0.5s ease;
+	font-family: "Arial";
+}
+
+.link:hover
+{
+	opacity: 1;
+}
+
+.copyright
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: system-ui;
+	font-size: 12px;
+	color: grey;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 40px;
+}
