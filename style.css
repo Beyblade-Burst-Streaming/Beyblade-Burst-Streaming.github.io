@@ -106,3 +106,42 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
   background-color: #000000;
   opacity: 0.85;
 }
+
+.liste-episodes
+{
+	margin-top: 100px;
+	height: 100%;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.bouton-ep
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	background-color: darkred;
+	height: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	font-family: "Arial";
+	opacity: 0.7;
+	animation: all 1s ease;
+	z-index: 0;
+}
+
+.bouton-ep:hover
+{
+	opacity: 1;
+	font-size: 22px;
+}
