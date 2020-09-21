@@ -13,8 +13,10 @@
 #header-menu
 {
 	height: 100px;
-	display: flex;
-	flex-direction: row;
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .lien-logo
@@ -44,13 +46,94 @@
 	opacity: 1
 }
 
-.menu
-{
-	height: 100%;
-	width: 35%;
-	margin-left: 30%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+.menu {
+    flex-basis: 100%;
+    list-style: none;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 2em;
+    text-transform: uppercase;
+    transition: margin .5s ease-in-out, max-height .5s ease-in-out, opacity .3s .1s ease-in-out;
 }
+
+.menu li {
+    border-bottom: 1px solid #eee;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+.menu-checkbox {
+	opacity: 0;
+	position: absolute;
+	top: -1000px;
+}
+
+.menu-checkbox:checked + .menu {
+    margin: 1em 0;
+    max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-checkbox:focus + .menu-toggle {
+    outline: #00A1A1 auto 5px;
+}
+
+.menu-toggle {
+    padding: .5em 1em;
+    color: white;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (min-width: 65em) {
+    .menu {
+    	flex-basis: auto;
+        max-height: 1000px;
+        opacity: 1;
+        visibility: visible;
+        width: 600px;
+		margin-right: 5%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    }
+
+    .menu-toggle,
+    .menu-checkbox {
+        display: none;
+    }
+
+    .menu li {
+        border: none;
+        display: inline-block;
+    }
+
+.menu li a {
+    padding: .5em;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.lien-logo
+	{
+		width: 30%;
+	}
+
+	.header-logo
+	{
+		width: 200px;
+	}
+
+	.menu-toggle {
+	    margin-right: 0px;
+	}
+}
+
