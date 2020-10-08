@@ -9,6 +9,7 @@
 {
 	position: relative;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 	height: 100%;
 	width: 100%;
@@ -16,8 +17,9 @@
 
 .footer-link
 {
+	width: 40%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -49,6 +51,16 @@
 	margin-bottom: 40px;
 }
 
+@media screen and (max-width: 1000px) {
+
+   .footer-link
+	{
+		width: 80%;
+	}
+
+
+}
+
 @media screen and (max-width: 500px) {
 
     .copyright
@@ -61,5 +73,10 @@
     	font-size: 10px;
     	margin-top: 10px;
     }
+
+    .footer-link
+	{
+		width: 100%;
+	}
 
 }

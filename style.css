@@ -217,6 +217,59 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
   -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
   -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 }
+
+.white-back
+{
+  background-color: white;
+  color: black;
+  font-family: "Arial";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.white-back-2
+{
+  background-color: white;
+  color: black;
+  font-family: "Arial";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.faq-title
+{
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.faq-sub
+{
+  margin: 0;
+  margin-left: 6%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.faq-text
+{
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
  
  @media screen and (max-width: 1100px) {
 
@@ -240,6 +293,43 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
     {
       width: 100%;
     }
+
+    .faq-title
+    {
+      margin-bottom: 5px;
+    }
+
+    .faq-sub
+    {
+      margin-bottom: 5px;
+    }
+
+    .faq-text
+    {
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .faq-title
+    {
+      margin-bottom: 30px;
+      font-size: 25px;
+    }
+
+    .faq-sub
+    {
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+
+    .faq-text
+    {
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+
 }
 
  @media screen and (max-width: 700px) {
@@ -278,6 +368,24 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
     .img-link
     {
       width: 280px;
+    }
+
+    .faq-title
+    {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .faq-sub
+    {
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+
+    .faq-text
+    {
+      margin-bottom: 15px;
+      font-size: 12px;
     }
 }
 
@@ -374,6 +482,24 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
     div.lightbox figure .closemsg, div.lightbox figure iframe
     {
       width: 90%;
+    }
+
+    .faq-title
+    {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .faq-sub
+    {
+      margin-bottom: 5px;
+      font-size: 12px;
+    }
+
+    .faq-text
+    {
+      margin-bottom: 15px;
+      font-size: 10px;
     }
 
 }
