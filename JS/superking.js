@@ -264,7 +264,7 @@ const bep29 = document.getElementById("b-episode29");
 bep29.addEventListener('click', function() {
 	const ep29 = document.getElementById("episode29");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="superking.html" class="closemsg"></a>';
+	figure.innerHTML = '<a href="superking.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9552311" style="border:0" allowfullscreen></iframe>';
 	ep29.appendChild(figure);
 });
 
