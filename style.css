@@ -330,6 +330,16 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
       font-size: 13px;
     }
 
+    div.lightbox figure iframe
+    {
+      height: 90%;
+    }
+
+    div.lightbox figure .closemsg, div.lightbox figure iframe
+    {
+      width: 90%;
+    }
+
 }
 
  @media screen and (max-width: 700px) {
@@ -477,11 +487,6 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
     div.lightbox figure iframe
     {
       height: 200px;
-    }
-
-    div.lightbox figure .closemsg, div.lightbox figure iframe
-    {
-      width: 90%;
     }
 
     .faq-title
