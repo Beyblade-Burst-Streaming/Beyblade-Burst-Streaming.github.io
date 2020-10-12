@@ -21,7 +21,7 @@ const bep3 = document.getElementById("b-episode3");
 bep3.addEventListener('click', function() {
 	const ep3 = document.getElementById("episode3");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/62D50PZebXb5JEn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/DbzaPnYrl9vx5KD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep3.appendChild(figure);
 });
 
@@ -120,7 +120,7 @@ const bep14 = document.getElementById("b-episode14");
 bep14.addEventListener('click', function() {
 	const ep14 = document.getElementById("episode14");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/7ZYWzEO8nEQ2dgr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/v3DMLNW1DJqrQDZ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep14.appendChild(figure);
 });
 
@@ -156,7 +156,7 @@ const bep18 = document.getElementById("b-episode18");
 bep18.addEventListener('click', function() {
 	const ep18 = document.getElementById("episode18");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/gmwqP4kO3ebqoN2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/2e9MQ9KwXlEABex" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep18.appendChild(figure);
 });
 
@@ -165,7 +165,7 @@ const bep19 = document.getElementById("b-episode19");
 bep19.addEventListener('click', function() {
 	const ep19 = document.getElementById("episode19");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/xGjA1a2O3aEAWLm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/lXg8dkY37abW9xN" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep19.appendChild(figure);
 });
 
@@ -174,7 +174,7 @@ const bep20 = document.getElementById("b-episode20");
 bep20.addEventListener('click', function() {
 	const ep20 = document.getElementById("episode20");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/y1qnoarxjzQwRMz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/lR8keDYY1Bx90Yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep20.appendChild(figure);
 });
 
@@ -183,7 +183,7 @@ const bep21 = document.getElementById("b-episode21");
 bep21.addEventListener('click', function() {
 	const ep21 = document.getElementById("episode21");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/wvgGQnzgvz5O7am" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/6MK9D70N05dGLGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep21.appendChild(figure);
 });
 
@@ -210,7 +210,7 @@ const bep24 = document.getElementById("b-episode24");
 bep24.addEventListener('click', function() {
 	const ep24 = document.getElementById("episode24");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/qO9wJ1zlXq1QLAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://embed.mystream.to/78rrgnohewpv" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep24.appendChild(figure);
 });
 
@@ -219,7 +219,7 @@ const bep25 = document.getElementById("b-episode25");
 bep25.addEventListener('click', function() {
 	const ep25 = document.getElementById("episode25");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/D76onGaz6yaRpgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/mGgXkdMBopDek0m" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep25.appendChild(figure);
 });
 
@@ -264,7 +264,7 @@ const bep30 = document.getElementById("b-episode30");
 bep30.addEventListener('click', function() {
 	const ep30 = document.getElementById("episode30");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/zW2nRWBel3DdNq1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/Z0MEwvq4R6nWvN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep30.appendChild(figure);
 });
 
@@ -300,7 +300,7 @@ const bep34 = document.getElementById("b-episode34");
 bep34.addEventListener('click', function() {
 	const ep34 = document.getElementById("episode34");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/62BQz5Waw2g0wK3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/EM4oYwMLvpj62PQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep34.appendChild(figure);
 });
 
@@ -345,7 +345,7 @@ const bep39 = document.getElementById("b-episode39");
 bep39.addEventListener('click', function() {
 	const ep39 = document.getElementById("episode39");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/Yo6lvOJJ641zk3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/AvJXvgnvn44eG7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep39.appendChild(figure);
 });
 
@@ -363,7 +363,7 @@ const bep41 = document.getElementById("b-episode41");
 bep41.addEventListener('click', function() {
 	const ep41 = document.getElementById("episode41");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/AqMO0nE4A1KBeKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/gjpmEZK5Yak6doO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep41.appendChild(figure);
 });
 
@@ -381,7 +381,7 @@ const bep43 = document.getElementById("b-episode43");
 bep43.addEventListener('click', function() {
 	const ep43 = document.getElementById("episode43");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/o0LXbMVNyJ7mOJj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/kXrQyZDdzqw86nP" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep43.appendChild(figure);
 });
 
@@ -408,7 +408,7 @@ const bep46 = document.getElementById("b-episode46");
 bep46.addEventListener('click', function() {
 	const ep46 = document.getElementById("episode46");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/dWDpJ0b1ay6o6my" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://embed.mystream.to/wy8m5l8p7949" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep46.appendChild(figure);
 });
 
@@ -444,7 +444,7 @@ const bep50 = document.getElementById("b-episode50");
 bep50.addEventListener('click', function() {
 	const ep50 = document.getElementById("episode50");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://www.pstream.net/e/PzN2dab3KO0j4xL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	figure.innerHTML = '<a href="burst.html" class="closemsg"></a><iframe width="560" height="315" src="https://embed.mystream.to/3yfk7tc8tpan" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 	ep50.appendChild(figure);
 });
 
