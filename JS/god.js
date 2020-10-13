@@ -228,7 +228,7 @@ const bep26 = document.getElementById("b-episode26");
 bep26.addEventListener('click', function() {
 	const ep26 = document.getElementById("episode26");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><p class="white">Episode Indispo</p>';
+	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9563122" style="border:0" allowfullscreen></iframe>';
 	ep26.appendChild(figure);
 });
 

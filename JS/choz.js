@@ -129,7 +129,7 @@ const bep15 = document.getElementById("b-episode15");
 bep15.addEventListener('click', function() {
 	const ep15 = document.getElementById("episode15");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="choz.html" class="closemsg"></a><p class= "white">Episode Indispo</p>';
+	figure.innerHTML = '<a href="choz.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9563120" style="border:0" allowfullscreen></iframe>';
 	ep15.appendChild(figure);
 });
 
