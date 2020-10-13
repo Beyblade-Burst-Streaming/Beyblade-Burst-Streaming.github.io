@@ -163,7 +163,8 @@ div.lightbox figure .closemsg, div.lightbox figure iframe {
 .text-prez
 {
 	color: white;
-  width: 600px
+  width: 600px;
+  font-family: "Arial";
 }
 
 .prez-title
