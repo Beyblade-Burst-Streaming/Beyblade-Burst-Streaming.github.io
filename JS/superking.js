@@ -282,7 +282,7 @@ const bep31 = document.getElementById("b-episode31");
 bep31.addEventListener('click', function() {
 	const ep31 = document.getElementById("episode31");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="superking.html" class="closemsg"></a>';
+	figure.innerHTML = '<a href="superking.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9575813" style="border:0" allowfullscreen></iframe>';
 	ep31.appendChild(figure);
 });
 
