@@ -291,7 +291,7 @@ const bep32 = document.getElementById("b-episode32");
 bep32.addEventListener('click', function() {
 	const ep32 = document.getElementById("episode32");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="superking.html" class="closemsg"></a>';
+	figure.innerHTML = '<a href="superking.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9582010" style="border:0" allowfullscreen></iframe>';
 	ep32.appendChild(figure);
 });
 
