@@ -1,8 +1,14 @@
+@font-face
+{
+    font-family: "Moon";
+    src: url("../fonts/Moonrising.ttf") format("truetype");
+}
+
 #header
 {
 	border-bottom: 1px solid grey;
 	height: 100px;
-	font-family: "Arial";
+	font-family: "Moon";
 }
 
 .header-logo
@@ -35,12 +41,6 @@
 	transition: all 0.5s ease;
 }
 
-.act
-{
-	opacity: 1;
-	text-decoration: underline;
-}
-
 .link-menu:hover
 {
 	opacity: 1
@@ -51,7 +51,7 @@
     max-height: 1000px;
     opacity: 1;
     visibility: visible;
-    width: 600px;
+    width: 700px;
 	margin-right: 5%;
 	display: flex;
 	justify-content: space-between;

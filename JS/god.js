@@ -1,458 +1,815 @@
 /*---Episode 1---*/
-const bep1 = document.getElementById("b-episode1"); 
-bep1.addEventListener('click', function() {
-	const ep1 = document.getElementById("episode1");
+const bep52 = document.getElementById("b-episode52"); 
+bep52.addEventListener('click', function() {
+	const ep52 = document.getElementById("episode52");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513225" style="border:0" allowfullscreen></iframe>';
-	ep1.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep52.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 2---*/
-const bep2 = document.getElementById("b-episode2");
-bep2.addEventListener('click', function() {
-	const ep2 = document.getElementById("episode2");
+const bep53 = document.getElementById("b-episode53");
+bep53.addEventListener('click', function() {
+	const ep53 = document.getElementById("episode53");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513226" style="border:0" allowfullscreen></iframe>';
-	ep2.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep53.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 3---*/
-const bep3 = document.getElementById("b-episode3");
-bep3.addEventListener('click', function() {
-	const ep3 = document.getElementById("episode3");
+const bep54 = document.getElementById("b-episode54");
+bep54.addEventListener('click', function() {
+	const ep54 = document.getElementById("episode54");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513227" style="border:0" allowfullscreen></iframe>';
-	ep3.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep54.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 4---*/
-const bep4 = document.getElementById("b-episode4");
-bep4.addEventListener('click', function() {
-	const ep4 = document.getElementById("episode4");
+const bep55 = document.getElementById("b-episode55");
+bep55.addEventListener('click', function() {
+	const ep55 = document.getElementById("episode55");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513228" style="border:0" allowfullscreen></iframe>';
-	ep4.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep55.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 5---*/
-const bep5 = document.getElementById("b-episode5");
-bep5.addEventListener('click', function() {
-	const ep5 = document.getElementById("episode5");
+const bep56 = document.getElementById("b-episode56");
+bep56.addEventListener('click', function() {
+	const ep56 = document.getElementById("episode56");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513229" style="border:0" allowfullscreen></iframe>';
-	ep5.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep56.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 6---*/
-const bep6 = document.getElementById("b-episode6");
-bep6.addEventListener('click', function() {
-	const ep6 = document.getElementById("episode6");
+const bep57 = document.getElementById("b-episode57");
+bep57.addEventListener('click', function() {
+	const ep57 = document.getElementById("episode57");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513230" style="border:0" allowfullscreen></iframe>';
-	ep6.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep57.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 7---*/
-const bep7 = document.getElementById("b-episode7");
-bep7.addEventListener('click', function() {
-	const ep7 = document.getElementById("episode7");
+const bep58 = document.getElementById("b-episode58");
+bep58.addEventListener('click', function() {
+	const ep58 = document.getElementById("episode58");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513231" style="border:0" allowfullscreen></iframe>';
-	ep7.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep58.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 8---*/
-const bep8 = document.getElementById("b-episode8");
-bep8.addEventListener('click', function() {
-	const ep8 = document.getElementById("episode8");
+const bep59 = document.getElementById("b-episode59");
+bep59.addEventListener('click', function() {
+	const ep59 = document.getElementById("episode59");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513232" style="border:0" allowfullscreen></iframe>';
-	ep8.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep59.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 9---*/
-const bep9 = document.getElementById("b-episode9"); 
-bep9.addEventListener('click', function() {
-	const ep9 = document.getElementById("episode9");
+const bep60 = document.getElementById("b-episode60"); 
+bep60.addEventListener('click', function() {
+	const ep60 = document.getElementById("episode60");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513233" style="border:0" allowfullscreen></iframe>';
-	ep9.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep60.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 10---*/
-const bep10 = document.getElementById("b-episode10");
-bep10.addEventListener('click', function() {
-	const ep10 = document.getElementById("episode10");
+const bep61 = document.getElementById("b-episode61");
+bep61.addEventListener('click', function() {
+	const ep61 = document.getElementById("episode61");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513234" style="border:0" allowfullscreen></iframe>';
-	ep10.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep61.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 11---*/
-const bep11 = document.getElementById("b-episode11");
-bep11.addEventListener('click', function() {
-	const ep11 = document.getElementById("episode11");
+const bep62 = document.getElementById("b-episode62");
+bep62.addEventListener('click', function() {
+	const ep62 = document.getElementById("episode62");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513235" style="border:0" allowfullscreen></iframe>';
-	ep11.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep62.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 12---*/
-const bep12 = document.getElementById("b-episode12");
-bep12.addEventListener('click', function() {
-	const ep12 = document.getElementById("episode12");
+const bep63 = document.getElementById("b-episode63");
+bep63.addEventListener('click', function() {
+	const ep63 = document.getElementById("episode63");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513236" style="border:0" allowfullscreen></iframe>';
-	ep12.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep63.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 13---*/
-const bep13 = document.getElementById("b-episode13");
-bep13.addEventListener('click', function() {
-	const ep13 = document.getElementById("episode13");
+const bep64 = document.getElementById("b-episode64");
+bep64.addEventListener('click', function() {
+	const ep64 = document.getElementById("episode64");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513237" style="border:0" allowfullscreen></iframe>';
-	ep13.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep64.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 14---*/
-const bep14 = document.getElementById("b-episode14");
-bep14.addEventListener('click', function() {
-	const ep14 = document.getElementById("episode14");
+const bep65 = document.getElementById("b-episode65");
+bep65.addEventListener('click', function() {
+	const ep65 = document.getElementById("episode65");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513238" style="border:0" allowfullscreen></iframe>';
-	ep14.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep65.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 15---*/
-const bep15 = document.getElementById("b-episode15");
-bep15.addEventListener('click', function() {
-	const ep15 = document.getElementById("episode15");
+const bep66 = document.getElementById("b-episode66");
+bep66.addEventListener('click', function() {
+	const ep66 = document.getElementById("episode66");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513239" style="border:0" allowfullscreen></iframe>';
-	ep15.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep66.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 16---*/
-const bep16 = document.getElementById("b-episode16");
-bep16.addEventListener('click', function() {
-	const ep16 = document.getElementById("episode16");
+const bep67 = document.getElementById("b-episode67");
+bep67.addEventListener('click', function() {
+	const ep67 = document.getElementById("episode67");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513240" style="border:0" allowfullscreen></iframe>';
-	ep16.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep67.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 17---*/
-const bep17 = document.getElementById("b-episode17");
-bep17.addEventListener('click', function() {
-	const ep17 = document.getElementById("episode17");
+const bep68 = document.getElementById("b-episode68");
+bep68.addEventListener('click', function() {
+	const ep68 = document.getElementById("episode68");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513241" style="border:0" allowfullscreen></iframe>';
-	ep17.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep68.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 18---*/
-const bep18 = document.getElementById("b-episode18"); 
-bep18.addEventListener('click', function() {
-	const ep18 = document.getElementById("episode18");
+const bep69 = document.getElementById("b-episode69"); 
+bep69.addEventListener('click', function() {
+	const ep69 = document.getElementById("episode69");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513242" style="border:0" allowfullscreen></iframe>';
-	ep18.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep69.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 19---*/
-const bep19 = document.getElementById("b-episode19");
-bep19.addEventListener('click', function() {
-	const ep19 = document.getElementById("episode19");
+const bep70 = document.getElementById("b-episode70");
+bep70.addEventListener('click', function() {
+	const ep70 = document.getElementById("episode70");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513243" style="border:0" allowfullscreen></iframe>';
-	ep19.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep70.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 20---*/
-const bep20 = document.getElementById("b-episode20");
-bep20.addEventListener('click', function() {
-	const ep20 = document.getElementById("episode20");
+const bep71 = document.getElementById("b-episode71");
+bep71.addEventListener('click', function() {
+	const ep71 = document.getElementById("episode71");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513244" style="border:0" allowfullscreen></iframe>';
-	ep20.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep71.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 21---*/
-const bep21 = document.getElementById("b-episode21");
-bep21.addEventListener('click', function() {
-	const ep21 = document.getElementById("episode21");
+const bep72 = document.getElementById("b-episode72");
+bep72.addEventListener('click', function() {
+	const ep72 = document.getElementById("episode72");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513245" style="border:0" allowfullscreen></iframe>';
-	ep21.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep72.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 22---*/
-const bep22 = document.getElementById("b-episode22");
-bep22.addEventListener('click', function() {
-	const ep22 = document.getElementById("episode22");
+const bep73 = document.getElementById("b-episode73");
+bep73.addEventListener('click', function() {
+	const ep73 = document.getElementById("episode73");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513246" style="border:0" allowfullscreen></iframe>';
-	ep22.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep73.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 23---*/
-const bep23 = document.getElementById("b-episode23");
-bep23.addEventListener('click', function() {
-	const ep23 = document.getElementById("episode23");
+const bep74 = document.getElementById("b-episode74");
+bep74.addEventListener('click', function() {
+	const ep74 = document.getElementById("episode74");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513247" style="border:0" allowfullscreen></iframe>';
-	ep23.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep74.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 24---*/
-const bep24 = document.getElementById("b-episode24");
-bep24.addEventListener('click', function() {
-	const ep24 = document.getElementById("episode24");
+const bep75 = document.getElementById("b-episode75");
+bep75.addEventListener('click', function() {
+	const ep75 = document.getElementById("episode75");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513248" style="border:0" allowfullscreen></iframe>';
-	ep24.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep75.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 25---*/
-const bep25 = document.getElementById("b-episode25");
-bep25.addEventListener('click', function() {
-	const ep25 = document.getElementById("episode25");
+const bep76 = document.getElementById("b-episode76");
+bep76.addEventListener('click', function() {
+	const ep76 = document.getElementById("episode76");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513249" style="border:0" allowfullscreen></iframe>';
-	ep25.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep76.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 26---*/
-const bep26 = document.getElementById("b-episode26");
-bep26.addEventListener('click', function() {
-	const ep26 = document.getElementById("episode26");
+const bep77 = document.getElementById("b-episode77");
+bep77.addEventListener('click', function() {
+	const ep77 = document.getElementById("episode77");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9563122" style="border:0" allowfullscreen></iframe>';
-	ep26.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep77.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 27---*/
-const bep27 = document.getElementById("b-episode27");
-bep27.addEventListener('click', function() {
-	const ep27 = document.getElementById("episode27");
+const bep78 = document.getElementById("b-episode78");
+bep78.addEventListener('click', function() {
+	const ep78 = document.getElementById("episode78");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513251" style="border:0" allowfullscreen></iframe>';
-	ep27.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep78.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 28---*/
-const bep28 = document.getElementById("b-episode28");
-bep28.addEventListener('click', function() {
-	const ep28 = document.getElementById("episode28");
+const bep79 = document.getElementById("b-episode79");
+bep79.addEventListener('click', function() {
+	const ep79 = document.getElementById("episode79");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513252" style="border:0" allowfullscreen></iframe>';
-	ep28.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep79.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 29---*/
-const bep29 = document.getElementById("b-episode29");
-bep29.addEventListener('click', function() {
-	const ep29 = document.getElementById("episode29");
+const bep80 = document.getElementById("b-episode80");
+bep80.addEventListener('click', function() {
+	const ep80 = document.getElementById("episode80");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513253" style="border:0" allowfullscreen></iframe>';
-	ep29.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep80.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 30---*/
-const bep30 = document.getElementById("b-episode30");
-bep30.addEventListener('click', function() {
-	const ep30 = document.getElementById("episode30");
+const bep81 = document.getElementById("b-episode81");
+bep81.addEventListener('click', function() {
+	const ep81 = document.getElementById("episode81");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513254" style="border:0" allowfullscreen></iframe>';
-	ep30.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep81.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 31---*/
-const bep31 = document.getElementById("b-episode31");
-bep31.addEventListener('click', function() {
-	const ep31 = document.getElementById("episode31");
+const bep82 = document.getElementById("b-episode82");
+bep82.addEventListener('click', function() {
+	const ep82 = document.getElementById("episode82");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513255" style="border:0" allowfullscreen></iframe>';
-	ep31.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep82.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 32---*/
-const bep32 = document.getElementById("b-episode32");
-bep32.addEventListener('click', function() {
-	const ep32 = document.getElementById("episode32");
+const bep83 = document.getElementById("b-episode83");
+bep83.addEventListener('click', function() {
+	const ep83 = document.getElementById("episode83");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513256" style="border:0" allowfullscreen></iframe>';
-	ep32.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep83.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 33---*/
-const bep33 = document.getElementById("b-episode33");
-bep33.addEventListener('click', function() {
-	const ep33 = document.getElementById("episode33");
+const bep84 = document.getElementById("b-episode84");
+bep84.addEventListener('click', function() {
+	const ep84 = document.getElementById("episode84");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513257" style="border:0" allowfullscreen></iframe>';
-	ep33.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep84.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 34---*/
-const bep34 = document.getElementById("b-episode34");
-bep34.addEventListener('click', function() {
-	const ep34 = document.getElementById("episode34");
+const bep85 = document.getElementById("b-episode85");
+bep85.addEventListener('click', function() {
+	const ep85 = document.getElementById("episode85");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513258" style="border:0" allowfullscreen></iframe>';
-	ep34.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep85.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 35---*/
-const bep35 = document.getElementById("b-episode35");
-bep35.addEventListener('click', function() {
-	const ep35 = document.getElementById("episode35");
+const bep86 = document.getElementById("b-episode86");
+bep86.addEventListener('click', function() {
+	const ep86 = document.getElementById("episode86");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513259" style="border:0" allowfullscreen></iframe>';
-	ep35.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep86.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 36---*/
-const bep36 = document.getElementById("b-episode36");
-bep36.addEventListener('click', function() {
-	const ep36 = document.getElementById("episode36");
+const bep87 = document.getElementById("b-episode87");
+bep87.addEventListener('click', function() {
+	const ep87 = document.getElementById("episode87");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513260" style="border:0" allowfullscreen></iframe>';
-	ep36.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep87.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 37---*/
-const bep37 = document.getElementById("b-episode37");
-bep37.addEventListener('click', function() {
-	const ep37 = document.getElementById("episode37");
+const bep88 = document.getElementById("b-episode88");
+bep88.addEventListener('click', function() {
+	const ep88 = document.getElementById("episode88");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513261" style="border:0" allowfullscreen></iframe>';
-	ep37.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep88.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 38---*/
-const bep38 = document.getElementById("b-episode38");
-bep38.addEventListener('click', function() {
-	const ep38 = document.getElementById("episode38");
+const bep89 = document.getElementById("b-episode89");
+bep89.addEventListener('click', function() {
+	const ep89 = document.getElementById("episode89");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513262" style="border:0" allowfullscreen></iframe>';
-	ep38.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep89.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 39---*/
-const bep39 = document.getElementById("b-episode39");
-bep39.addEventListener('click', function() {
-	const ep39 = document.getElementById("episode39");
+const bep90 = document.getElementById("b-episode90");
+bep90.addEventListener('click', function() {
+	const ep90 = document.getElementById("episode90");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513263" style="border:0" allowfullscreen></iframe>';
-	ep39.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep90.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 40---*/
-const bep40 = document.getElementById("b-episode40");
-bep40.addEventListener('click', function() {
-	const ep40 = document.getElementById("episode40");
+const bep91 = document.getElementById("b-episode91");
+bep91.addEventListener('click', function() {
+	const ep91 = document.getElementById("episode91");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513264" style="border:0" allowfullscreen></iframe>';
-	ep40.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep91.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 41---*/
-const bep41 = document.getElementById("b-episode41");
-bep41.addEventListener('click', function() {
-	const ep41 = document.getElementById("episode41");
+const bep92 = document.getElementById("b-episode92");
+bep92.addEventListener('click', function() {
+	const ep92 = document.getElementById("episode92");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513265" style="border:0" allowfullscreen></iframe>';
-	ep41.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep92.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 42---*/
-const bep42 = document.getElementById("b-episode42");
-bep42.addEventListener('click', function() {
-	const ep42 = document.getElementById("episode42");
+const bep93 = document.getElementById("b-episode93");
+bep93.addEventListener('click', function() {
+	const ep93 = document.getElementById("episode93");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513266" style="border:0" allowfullscreen></iframe>';
-	ep42.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep93.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 43---*/
-const bep43 = document.getElementById("b-episode43");
-bep43.addEventListener('click', function() {
-	const ep43 = document.getElementById("episode43");
+const bep94 = document.getElementById("b-episode94");
+bep94.addEventListener('click', function() {
+	const ep94 = document.getElementById("episode94");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513267" style="border:0" allowfullscreen></iframe>';
-	ep43.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep94.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 44---*/
-const bep44 = document.getElementById("b-episode44");
-bep44.addEventListener('click', function() {
-	const ep44 = document.getElementById("episode44");
+const bep95 = document.getElementById("b-episode95");
+bep95.addEventListener('click', function() {
+	const ep95 = document.getElementById("episode95");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513268" style="border:0" allowfullscreen></iframe>';
-	ep44.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep95.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 45---*/
-const bep45 = document.getElementById("b-episode45");
-bep45.addEventListener('click', function() {
-	const ep45 = document.getElementById("episode45");
+const bep96 = document.getElementById("b-episode96");
+bep96.addEventListener('click', function() {
+	const ep96 = document.getElementById("episode96");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513269" style="border:0" allowfullscreen></iframe>';
-	ep45.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep96.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 46---*/
-const bep46 = document.getElementById("b-episode46");
-bep46.addEventListener('click', function() {
-	const ep46 = document.getElementById("episode46");
+const bep97 = document.getElementById("b-episode97");
+bep97.addEventListener('click', function() {
+	const ep97 = document.getElementById("episode97");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513270" style="border:0" allowfullscreen></iframe>';
-	ep46.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep97.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 47---*/
-const bep47 = document.getElementById("b-episode47");
-bep47.addEventListener('click', function() {
-	const ep47 = document.getElementById("episode47");
+const bep98 = document.getElementById("b-episode98");
+bep98.addEventListener('click', function() {
+	const ep98 = document.getElementById("episode98");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513271" style="border:0" allowfullscreen></iframe>';
-	ep47.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep98.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 48---*/
-const bep48 = document.getElementById("b-episode48");
-bep48.addEventListener('click', function() {
-	const ep48 = document.getElementById("episode48");
+const bep99 = document.getElementById("b-episode99");
+bep99.addEventListener('click', function() {
+	const ep99 = document.getElementById("episode99");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513272" style="border:0" allowfullscreen></iframe>';
-	ep48.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep99.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 49---*/
-const bep49 = document.getElementById("b-episode49");
-bep49.addEventListener('click', function() {
-	const ep49 = document.getElementById("episode49");
+const bep100 = document.getElementById("b-episode100");
+bep100.addEventListener('click', function() {
+	const ep100 = document.getElementById("episode100");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513273" style="border:0" allowfullscreen></iframe>';
-	ep49.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep100.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 50---*/
-const bep50 = document.getElementById("b-episode50");
-bep50.addEventListener('click', function() {
-	const ep50 = document.getElementById("episode50");
+const bep101 = document.getElementById("b-episode101");
+bep101.addEventListener('click', function() {
+	const ep101 = document.getElementById("episode101");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513274" style="border:0" allowfullscreen></iframe>';
-	ep50.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep101.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
 
 /*---Episode 51---*/
-const bep51 = document.getElementById("b-episode51");
-bep51.addEventListener('click', function() {
-	const ep51 = document.getElementById("episode51");
+const bep102 = document.getElementById("b-episode102");
+bep102.addEventListener('click', function() {
+	const ep102 = document.getElementById("episode102");
 	const figure = document.createElement("figure");
-	figure.innerHTML = '<a href="god.html" class="closemsg"></a><iframe width="640" height="360" src="https://e-nautia.com/disk/play.php?id=9513275" style="border:0" allowfullscreen></iframe>';
-	ep51.appendChild(figure);
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	ep102.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
 });
