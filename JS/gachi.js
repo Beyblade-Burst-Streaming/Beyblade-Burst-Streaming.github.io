@@ -813,3 +813,19 @@ bep204.addEventListener('click', function() {
     	nowep.remove();
 	});
 });
+
+/*---Episode 52---*/
+const bepo1 = document.getElementById("b-episodeo1");
+bepo1.addEventListener('click', function() {
+	const epo1 = document.getElementById("episodeo1");
+	const figure = document.createElement("figure");
+	figure.id = "nowep";
+	figure.innerHTML = '<a href="#" class="closemsg" id="endep"></a><iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/okETFQrL#lHoMzHCir-qZiLBUIpRjl4u7GAdS2di1xioGtBT5RUs" allowfullscreen ></iframe>';
+	epo1.appendChild(figure);
+
+	const endep = document.getElementById("endep");
+	endep.addEventListener("click", () => {
+    	const nowep = document.getElementById("nowep");
+    	nowep.remove();
+	});
+});
